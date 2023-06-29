@@ -128,7 +128,7 @@ class Fer
             $this->alert("{$uRLs} | username => @{$senderName} | sender id {$senderId}", $adminId);
             exit;
         } elseif ($command == 'unfollow') {
-            $this->deleteTweet($val);
+            $this->deleteTweet($id[5]);
             $this->unfollow($senderId);
             $json[$arrKey]['method'] = "unfollow & deleted by admin";
             $this->saveFile($this->path, json_encode($json));
