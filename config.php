@@ -2,10 +2,10 @@
 
 // session_start();
 require "autoload.php";
-define("CONSUMER_KEY", "bZQdYU4N8aUUWCv29shEG66VY");
-define("CONSUMER_SECRET", "6tKqSD3BCrWsy9b4M5tOHHzuaAFDXw9zLpQDepn0rkq1P7MM7b");
-define("OAUTH_TOKEN", "3624538703-35usmIEkLWQPk7tfuEkAOe1rdru6rYn8gVm3Lfh");
-define("OAUTH_TOKEN_SECRET", "xfbUuRevcDdWFdC8e9kQ9o9gmd7bW0wiKLaVBIa3NZXe7");
+define("CONSUMER_KEY", "");
+define("CONSUMER_SECRET", "");
+define("OAUTH_TOKEN", "");
+define("OAUTH_TOKEN_SECRET", "");
 //define("OAUTH_CALLBACK", ""); //callback url, isi jika dibutuhkan. (optional)
 define("WEBHOOK_URL", ""); //https://domain-kamu.com/twitter/webhook.php
 define("ENV_LABEL", ""); //Dev environment label
